@@ -1,0 +1,11 @@
+while True:
+    try:
+     z = int(input("Enter which Math table you want"))
+     for i in range(1, 11):
+         j = z;
+         k = i * j;
+         for j in range(1, 2):
+             if (j < 10):
+                 print(z, '*', i, '=', k,'\n')
+    except ValueError:
+        print("OOPS!! I am a noob beyond Maths....Please enter only digits!")
